@@ -116,7 +116,7 @@ Once the bot is running, it will automatically post and update the server status
 ## Disclaimer
 
 This project does not contain any human written lines of code.
-This was all made and debugged using mainly Claude 3.5 sonnet,gpt4o and a lot
+This was all made and debugged using mainly Claude 3.5 sonnet, gpt4o and a lot
 of thoughtful prompting. This took about 3 days to make for a novice.
 
 ## Contributing
