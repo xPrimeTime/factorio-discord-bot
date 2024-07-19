@@ -1,0 +1,15 @@
+services:
+  factorio-discord-bot:
+    build: .
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - STATUS_CHANNEL_ID=${STATUS_CHANNEL_ID}
+      - UPDATE_INTERVAL=${UPDATE_INTERVAL:-60}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - FACTORIO_RCON_PASSWORD=${FACTORIO_RCON_PASSWORD}
+      - FACTORIO_RCON_PORT=${FACTORIO_RCON_PORT:-27015}
+      - FACTORIO_HOST=${FACTORIO_HOST:-localhost}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+    network_mode: "host"
