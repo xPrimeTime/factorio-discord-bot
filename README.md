@@ -18,6 +18,8 @@ This Discord bot monitors and manages a Factorio server running in a Docker cont
 
 The CPU and RAM usage reported by this bot reflect the resources used by the Factorio Docker container, not the entire host system. This provides a focused view of the Factorio server's performance within its allocated resources.
 
+![Feature Preview](FactorioWatcher.png)
+
 ## Prerequisites
 
 - Docker and Docker Compose
